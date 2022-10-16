@@ -1,10 +1,29 @@
 
-
+#background{
+  height: 725px;
+}
 body {
     background-color: lightblue;
   }
-  
-  h1 {
-    color: navy;
+
+  header {
+    background-color: navy;
     margin-left: 20px;
   }
+nav a:hover {
+  background-color: lightblue;
+}
+.icon {
+  width:80px
+}
+nav a {
+  text-align: center;
+  color:aquamarine;
+  text-decoration: none;
+}
+footer p {
+  font-size: 1.2em;
+}
+footer p a:hover {
+  text-decoration: underline;
+}
